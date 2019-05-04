@@ -1,0 +1,99 @@
+html {
+  font-size: 10px;
+  background: url(alan-walker.jpg);
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.keys {
+  position: absolute;
+  margin: 0 auto;
+  width: 425px;
+  height: 450px;
+  top: 180px;
+  left: 460px;
+  border: outset;
+  border-color: purple;
+  background: black;
+  z-index: 1;
+  box-shadow: 0 0 20px purple;
+}
+
+.upper-buttons{
+  position: relative;
+  top: 200px;
+  z-index: 2;
+  width: 600px;
+}
+
+.button1{
+  border-radius: 50%;
+  border: 1px white solid;
+  font-size: 30px;
+  position: relative;
+  left: 440px;
+  margin-left: 38px;
+  padding-right:16px;
+  padding-left:16px;
+  background: dimgrey;
+  border: outset;
+  border-color: grey;
+}
+
+.right-buttons{
+  display: grid;
+  width: 36px;
+  height: 300px;
+  position: absolute;
+  top: 275px;
+  left: 835px;
+  z-index: 3;
+}
+
+.button2{
+  border-radius: 50%;
+  border: 1px white solid;
+  font-size: 30px;
+  margin-bottom: 38px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: dimgrey;
+  border: outset;
+  border-color: grey;
+}
+
+.key {
+  border: 3px solid white;
+  padding: 1px;
+  transition: all .1s;
+  width: 100px;
+  height: 105px;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 90px;
+  left: 20px;
+  float: left;
+  background: rgba(0,0,0,0.4);
+  border: inset;
+}
+
+.playing {
+  transform: scale(1.0);
+  color: white;
+  background: white;
+  border-color: purple;
+  box-shadow: 0 0 15px white;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+  position: relative;
+  top: 30px;
+}
