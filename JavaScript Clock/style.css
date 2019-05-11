@@ -25,13 +25,13 @@ body {
   position: relative;
   top: 110px;
   right: 10px;
+  font-weight: bold;
 }
 
 .time{
   position: relative;
   top: 120px;
   left: -10px;
-  color: black;
 }
 
 .clock {

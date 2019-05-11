@@ -25,20 +25,17 @@ const setDate=()=>{
 setInterval(setDate, 1000);  //1000 miliseconds = 1 second
 
 const updateTime=()=>{
+  let weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  let monthName = ["January", "February", "March", "April", "May", "Jun", "July", "August", "September", "October", "November", "December"];
+
   let time = new Date();
-  let day = time.getDate();
-  let month = time.getMonth() + 1;
+  let day = weekday[time.getDay()]; //getDay() return a value, not exact day
+  let date = time.getDate();
+  let month = monthName[time.getMonth()]; //getMonth() also return a value
   let year = time.getFullYear();
 
 
-    document.querySelector(`.date`).innerHTML = day + "/" + month + "/" + year;
-
+    document.querySelector(`.date`).innerHTML = day + " - " + date + " " + month + " " + year;
     document.querySelector(`.time`).innerHTML = time.toLocaleTimeString();
   }
 setInterval(updateTime, 1000);
-
-const updateDay=()=>{
-  let days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
-
-
-}
