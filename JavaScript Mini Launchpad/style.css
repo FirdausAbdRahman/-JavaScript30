@@ -1,7 +1,7 @@
 html {
   font-size: 10px;
-  background: url(alan-walker.jpg);
-  background-size: cover;
+  background: radial-gradient(purple, black);
+  height: 100vh;
 }
 
 body,html {
@@ -12,21 +12,22 @@ body,html {
 
 .keys {
   position: absolute;
-  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 425px;
   height: 450px;
-  top: 180px;
-  left: 460px;
   border: outset;
   border-color: purple;
   background: black;
   z-index: 1;
-  box-shadow: 0 0 20px purple;
+  box-shadow: 0 0 20px white;
 }
 
 .upper-buttons{
-  position: relative;
-  top: 200px;
+  position: absolute;
+  top: 20px;
+  right: 66%;
   z-index: 2;
   width: 600px;
 }
@@ -46,12 +47,13 @@ body,html {
 }
 
 .right-buttons{
+  position: absolute;
+  top: 19%;
+  right: 5%;
+
   display: grid;
   width: 36px;
   height: 300px;
-  position: absolute;
-  top: 275px;
-  left: 835px;
   z-index: 3;
 }
 
