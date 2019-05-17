@@ -1,7 +1,7 @@
 :root {  //global scope
 //declaring global custom property
   --base: #ffc600;
-  --blur: 10px;
+  --blur: 0px;
   --brightness: 50%;
   --contrast: 10%;
   --grayscale: 10%;
@@ -29,8 +29,15 @@ img {
 .highlight {
   color: var(--base);
 }
+.col-md-1{
+  font-size: 13px;
+}
 
-body {
+.col-md-2 ul li span{
+  display: flex;
+}
+
+/*body {
   margin: 0;
   padding: 0;
   text-align: center;
@@ -59,7 +66,7 @@ body {
 
 input {
   width: 100px;
-}
+} */
 
 ul{
   list-style: none;
