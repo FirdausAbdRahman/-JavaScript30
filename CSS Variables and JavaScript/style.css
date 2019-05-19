@@ -1,20 +1,22 @@
 :root {  //global scope
 //declaring global custom property
-  --base: #ffc600;
   --blur: 0px;
-  --brightness: 50%;
-  --contrast: 10%;
-  --grayscale: 10%;
-  --hue-rotate: 90deg;
-  --invert: 10%;
+  --brightness: 96%;
+  --contrast: 94%;
+  --grayscale: 64%;
+  --hue-rotate: 0deg;
+  --invert: 0%;
   --opacity: 100%;
-  --saturate: 5;
-  --sepia: 20%;
+  --saturate: 6;
+  --sepia: 33%;
 
 }
 
+body{
+  overflow: hidden;
+}
+
 img {
-  background: var(--base);
   filter: blur(var(--blur))
           brightness(var(--brightness))
           contrast(var(--contrast))
@@ -26,48 +28,34 @@ img {
           sepia(var(--sepia));  //CSS filter property
 }
 
-.highlight {
-  color: var(--base);
+section{
+  background: darkgrey;
+  padding-top: 40px;
+  font-weight: bold;
+  padding-bottom: 70px;
 }
-.col-md-1{
-  font-size: 13px;
+
+.col-md-1 ul li .fas{
+  position: relative;
+  top: 10px;
+  right: 5px;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+.col-md-1 ul li .fas:hover{
+  cursor: pointer;
+  color: white;
 }
 
 .col-md-2 ul li span{
   display: flex;
 }
 
-/*body {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  background: #193549;
-  color: white;
-  font-family: 'helvetica neue', sans-serif;
-  font-weight: 100;
-  font-size: 20px;
-}
-
-.section{
-  display: flex;
-}
-
-.image{
-  position: absolute;
-  right: 30%;
-  border: solid white;
-}
-
-.controls {
-  position: absolute;
-  left: 75%;
-  border: solid white;
-}
-
-input {
-  width: 100px;
-} */
-
 ul{
   list-style: none;
+}
+
+.btn{
+  margin-right: 5px;
 }

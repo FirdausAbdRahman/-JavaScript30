@@ -31,9 +31,6 @@
           <a class="nav-link" href="#">Layer</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Type</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="#">Select</a>
         </li>
         <li class="nav-item">
@@ -55,16 +52,29 @@
     </div>
   </nav>
 
-<br>
+<section>
 
   <div class="container container">
     <div class="row">
-      <div class="col-md-1">
 
+      <div class="col-md-1">
+        <ul>
+          <li><i class="fas fa-magic"></i></li>
+          <li><i class="fas fa-crop"></i></li>
+          <li><i class="fas fa-eye-dropper"></i></li>
+          <li><i class="fas fa-paint-brush"></i></li>
+          <li><i class="fas fa-stamp"></i></li>
+          <li><i class="fas fa-eraser"></i></li>
+          <li><i class="fas fa-tint"></i></li>
+          <li><i class="fas fa-pen-fancy"></i></li>
+          <li><i class="fas fa-mouse-pointer"></i></li>
+          <li><i class="fas fa-hand-paper"></i></li>
+          <li><i class="fas fa-search"></i></li>
+        </ul>
       </div>
 
       <div class="col-md-9">
-        <img class="img-responsive" src="https://source.unsplash.com/7bwQXzbF6KE/800x500">
+        <img class="img-fluid" src="https://source.unsplash.com/7bwQXzbF6KE">
       </div>
 
       <div class="col-md-2 controls">
@@ -99,7 +109,7 @@
           </li>
           <li>
             <label for="saturate">Saturate:</label>
-            <input id="saturate" type="range" name="saturate" min="0" max="25" value="10" >
+            <input id="saturate" type="range" name="saturate" min="0" max="25" value="10" > 
           </li>
           <li>
             <label for="sepia">Sepia:</label>
@@ -108,8 +118,8 @@
           <br>
           <li>
             <span>
-              <button class="btn btn-sm btn-danger" type="button" name="button">Reset</button>
-              <button class="btn btn-sm btn-info" type="button" name="button">Download</button>
+              <button class="reset btn btn-sm btn-danger" type="button" name="button">Reset</button>
+              <button class="download btn btn-sm btn-info" type="button" name="button">Download</button>
             </span>
           </li>
 
@@ -121,8 +131,10 @@
 
   </div>
 
-
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</section>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 <script type="text/javascript" src="custom.js"></script>
 
