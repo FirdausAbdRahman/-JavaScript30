@@ -7,7 +7,6 @@ let suffix = this.dataset.sizing || '';
 document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
 }
 
-// Honestly, I'm not sure why this works !
 function resetUpdate(){
 return document.documentElement.style = "filter";
 }

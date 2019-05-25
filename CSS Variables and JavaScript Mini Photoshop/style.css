@@ -1,4 +1,4 @@
-:root {  //global scope
+:root{  //global scope
 //declaring global custom property
   --blur: 0px;
   --brightness: 96%;
@@ -9,7 +9,6 @@
   --opacity: 100%;
   --saturate: 6;
   --sepia: 33%;
-
 }
 
 body{
