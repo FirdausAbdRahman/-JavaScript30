@@ -7,7 +7,7 @@ My 30 Projects:
 	1)  JavaScript Mini Launchpad                        -> Status: Completed
 	2)  JavaScript Clock                                 -> Status: Completed
 	3)  CSS Variables & JavaScript Mini Photoshop        -> Status: Completed
-	4)  Array Cardio Day 1
+	4)  Array Cardio Day 1                               -> Status: Completed
 	5)  Flex Panels Image Gallery
 	6)  Ajax Type Ahead
 	7)  Array Cardio Day 2
