@@ -9,7 +9,7 @@ My 30 Projects:
 	3)  CSS Variables & JavaScript Mini Photoshop        -> Status: Completed
 	4)  Array Cardio Day 1                               -> Status: Completed
 	5)  Flex Panels Image Gallery                        -> Status: Completed
-	6)  Ajax Type Ahead
+	6)  Filterable List                                  -> Status: Completed 
 	7)  Array Cardio Day 2
 	8)  Fun with HTML5 Canvas
 	9)  14 Must Know Dev Tools Tricks
