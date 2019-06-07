@@ -11,7 +11,7 @@ My 30 Projects:
 	5)  Flex Panels Image Gallery                        -> Status: Completed
 	6)  Filterable List                                  -> Status: Completed 
 	7)  Array Cardio Day 2                               -> Status: Completed 
-	8)  Fun with HTML5 Canvas
+	8)  Fun with HTML5 Canvas                            -> Status: Completed 
 	9)  14 Must Know Dev Tools Tricks
 	10) Hold Shift to Check Multiple Checkboxes
 	11) Custom HTML5 Video Player
