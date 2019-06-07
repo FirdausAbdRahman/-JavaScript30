@@ -10,7 +10,7 @@ My 30 Projects:
 	4)  Array Cardio Day 1                               -> Status: Completed
 	5)  Flex Panels Image Gallery                        -> Status: Completed
 	6)  Filterable List                                  -> Status: Completed 
-	7)  Array Cardio Day 2
+	7)  Array Cardio Day 2                               -> Status: Completed 
 	8)  Fun with HTML5 Canvas
 	9)  14 Must Know Dev Tools Tricks
 	10) Hold Shift to Check Multiple Checkboxes
