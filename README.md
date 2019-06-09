@@ -15,8 +15,8 @@ My 30 Projects:
 	9)  14 Must Know Dev Tools Tricks                    -> Status: Completed
 	10) A Simple To-Do List                              -> Status: Completed
 	11) Custom HTML5 Video Player                        -> Status: Completed
-	12) Key Sequence Detection (Konami Code)
-	13) Slide In On Scroll
+	12) Key Sequence Detection (Konami Code)             -> Status: Completed
+	13) Slide In On Scroll                               -> Status: Completed
 	14) Object and Arrays - Reference vs Copy
 	15) Local Storage and Event Delegation
 	16) CSS Text Shadow Mouse Move Effect
