@@ -14,7 +14,7 @@ My 30 Projects:
 	8)  Fun with HTML5 Canvas                            -> Status: Completed 
 	9)  14 Must Know Dev Tools Tricks                    -> Status: Completed
 	10) A Simple To-Do List                              -> Status: Completed
-	11) Custom HTML5 Video Player
+	11) Custom HTML5 Video Player                        -> Status: Completed
 	12) Key Sequence Detection (Konami Code)
 	13) Slide In On Scroll
 	14) Object and Arrays - Reference vs Copy
