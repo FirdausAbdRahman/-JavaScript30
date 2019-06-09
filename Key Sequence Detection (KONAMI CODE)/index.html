@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Key Sequence Detection (KONAMI CODE)</title>
+  <script type="text/javascript" src="http://www.cornify.com/js/cornify.js"></script>
+</head>
+
+<body>
+  <h1>Please look at the console</h1>
+
+<script>
+const pressed = [];
+const secretCode = 'firdaus';
+
+window.addEventListener('keyup', (e) => {
+  console.log(e.key);
+  pressed.push(e.key);
+  pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
+  if (pressed.join('').includes(secretCode)) {
+    console.log('YOU HAVE FOUND THE SECRET CODE!');
+    cornify_add();
+  }
+  console.log(pressed);
+});
+
+/*
+Additional notes:
+window   => main JavaScript object root. It's the 1st thing that gets loaded
+into the browser. Actual global object.
+
+document => Documents get loaded into window object. It's where the DOM is.
+
+*/
+
+</script>
+
+</body>
+</html>
