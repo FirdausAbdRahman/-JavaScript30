@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Console Tricks!</title>
+</head>
+
+<body>
+
+  <p onclick="makeGreen()">Console Tricks!</p>
+  <p>Press f12 to open the console</p>
+
+  <script>
+    const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
+
+    function makeGreen() {
+      const p = document.querySelector('p');
+      // to change HTML attributes using JavaScript
+      p.style.color = 'green';
+      p.style.fontSize = '50px';
+    }
+
+    // Regular
+    console.log('hello');
+
+    // Interpolated
+    console.log('Hello I am a %s string!', '💩');
+
+    // Styled
+    console.log('%c I am some great text', 'font-size:50px; background:red;')
+
+    // warning!   => yellow sign
+    console.warn('OH NOOO');
+
+    // Error :|   => red sign
+    console.error('Shit!');
+
+    // Info       => blue sign
+    console.info('Crocodiles eat 3-4 people per year');
+
+    // Testing   =>to check if things are true or false. Only displayed when false.
+    const p = document.querySelector('p');
+    console.assert(p.classList.contains('ouch'), 'That is wrong!');
+
+    // clearing
+    console.clear();
+
+    // Viewing DOM Elements
+    console.log(p);
+    console.dir(p); //to view all the properties & methods of the element.
+
+    // Grouping together
+    dogs.forEach(dog => {
+      console.groupCollapsed(`${dog.name}`); //make a group based on dog's name
+      console.log(`This is ${dog.name}`);
+      console.log(`${dog.name} is ${dog.age} years old`);
+      console.log(`${dog.name} is ${dog.age * 7} dog years old`);
+      console.groupEnd(`${dog.name}`);
+    });
+
+    // counting   =>   display number of times the console.count() is called
+    console.count('Wes');
+    console.count('Wes');
+    console.count('Steve');
+    console.count('Steve');
+    console.count('Wes');
+    console.count('Steve');
+    console.count('Wes');
+    console.count('Steve');
+    console.count('Steve');
+    console.count('Steve');
+    console.count('Steve');
+    console.count('Steve');
+
+    // timing
+    console.time('fetching data'); //to see how long something takes
+    fetch('https://api.github.com/users/wesbos') //fetch data from github
+      .then(data => data.json())  //return a promise
+      .then(data => {
+        console.timeEnd('fetching data');
+        console.log(data);
+      });
+
+    console.table(dogs); //display array in table form
+
+    /*
+    Additional Notes:
+    JSON.parse()  => convert data from json file into JavaScript objects
+     */
+
+  </script>
+</body>
+</html>
