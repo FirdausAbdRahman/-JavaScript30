@@ -13,7 +13,7 @@ My 30 Projects:
 	7)  Array Cardio Day 2                               -> Status: Completed 
 	8)  Fun with HTML5 Canvas                            -> Status: Completed 
 	9)  14 Must Know Dev Tools Tricks                    -> Status: Completed
-	10) Hold Shift to Check Multiple Checkboxes          -> Status: Completed
+	10) A Simple To-Do List                              -> Status: Completed
 	11) Custom HTML5 Video Player
 	12) Key Sequence Detection (Konami Code)
 	13) Slide In On Scroll
