@@ -1,6 +1,6 @@
 # #JavaScript30 Challenge
 
-A compilation of 30 projects that I've developed through #JavaScript30, which is a 30 days vanilla JavaScript coding challenge. I made my own version of those projects to further enhance my skills beyond this coding challenge.
+A compilation of 30 projects that I've developed through #JavaScript30, which is a 30 days vanilla JavaScript coding challenge. I made my own version of those projects (some of it) to further enhance my skills beyond this coding challenge.
 
 My 30 Projects:
 
@@ -12,8 +12,8 @@ My 30 Projects:
 	6)  Filterable List                                  -> Status: Completed 
 	7)  Array Cardio Day 2                               -> Status: Completed 
 	8)  Fun with HTML5 Canvas                            -> Status: Completed 
-	9)  14 Must Know Dev Tools Tricks
-	10) Hold Shift to Check Multiple Checkboxes
+	9)  14 Must Know Dev Tools Tricks                    -> Status: Completed
+	10) Hold Shift to Check Multiple Checkboxes          -> Status: Completed
 	11) Custom HTML5 Video Player
 	12) Key Sequence Detection (Konami Code)
 	13) Slide In On Scroll
