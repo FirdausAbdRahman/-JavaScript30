@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Reference VS Copy</title>
+</head>
+
+<body>
+ <h1>Please open the console</h1>
+
+  <script>
+    // Strings, numbers and booleans are immutable. Referencing won't work.
+
+    let age = 100;
+    let age2 = age;
+    console.log(age, age2);  //100 ,100
+    age = 200;
+    console.log(age, age2);  //200, 100
+
+    let name = 'Wes';
+    let name2 = name;
+    console.log(name, name2);  //Wes, Wes
+    name = 'wesley';
+    console.log(name, name2);  //Wesley, Wes
+
+
+    //Referencing only works on arrays & objects.
+
+    //Array
+    const players = ['Wes', 'Sarah', 'Ryan', 'Poppy'];
+    const team = players;
+    console.log(players, team); // *same array for both variables.
+    team[3] = 'Lux';
+    console.log(players, team); //*both variables have been edited from 'Poppy' to 'Lux'!
+    // It is an array reference, not an array copy. They both point to the same array.
+    // To fix this, make a copy:
+
+    //Method No. 1:
+    const team2 = players.slice();
+
+    //Method No. 2:
+    const team3 = [].concat(players);
+
+    //Method No. 3 (ES6 Spread):
+    const team4 = [...players];
+    team4[3] = 'heeee hawww';
+    console.log(team4); //['Wes', 'Sarah', 'Ryan', 'heeee hawww'];
+
+    //Method No. 4:
+    const team5 = Array.from(players);
+
+
+
+    //Objects
+    const person = {
+      name: 'Wes Bos',
+      age: 80
+    };
+    const captain = person;
+    captain.number = 99;
+    console.log(person); // {name: "Wes Bos", age: 80, number: 99}
+
+    // To fix this:
+    const cap2 = Object.assign({}, person, { number: 99, age: 12 });
+    console.log(cap2); //{name: "Wes Bos", age: 12, number: 99}
+    console.log(person); //{name: "Wes Bos", age: 80}
+
+    //object ...spread is still not available on JavaScript
+    // const cap3 = {...person};
+
+    // Things to note - this is only 1 level deep - both for Arrays and Objects. lodash has a cloneDeep method, but you should think twice before using it.
+    const wes = {
+      name: 'Wes',
+      age: 100,
+      social: {
+        twitter: '@wesbos',
+        facebook: 'wesbos.developer'
+      }
+    };
+    console.log(wes.social); //{twitter: "@wesbos", facebook: "wesbos.developer"}
+    const dev = Object.assign({}, wes);
+    dev.social.twitter = '@coolman';
+    console.log(wes.social); //{twitter: "@coolman", facebook: "wesbos.developer"}
+
+    //To fix this:
+    const dev2 = JSON.parse(JSON.stringify(wes));
+    dev2.social.twitter = '@coolman';
+    console.log(wes.social); //{twitter: "@wesbos", facebook: "wesbos.developer"}
+
+  </script>
+
+</body>
+</html>
