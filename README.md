@@ -17,7 +17,7 @@ My 30 Projects:
 	11) Custom HTML5 Video Player                        -> Status: Completed
 	12) Key Sequence Detection (Konami Code)             -> Status: Completed
 	13) Slide In On Scroll                               -> Status: Completed
-	14) Object and Arrays - Reference vs Copy
+	14) Object and Arrays - Reference vs Copy            -> Status: Completed
 	15) Local Storage and Event Delegation
 	16) CSS Text Shadow Mouse Move Effect
 	17) Sorting Band Names without Articles
