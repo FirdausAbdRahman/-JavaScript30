@@ -20,7 +20,7 @@ My 30 Projects:
 	14) Object and Arrays - Reference vs Copy            -> Status: Completed
 	15) Local Storage and Event Delegation               -> Status: Completed
 	16) CSS Text Shadow Mouse Move Effect                -> Status: Completed
-	17) Sorting Band Names without Articles
+	17) Sorting Band Names without Articles              -> Status: Completed
 	18) Tally String Times With Reduce
 	19) Unreal Webcam Fun
 	20) Native Speech Recognition
