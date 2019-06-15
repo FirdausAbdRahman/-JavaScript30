@@ -21,8 +21,8 @@ My 30 Projects:
 	15) Local Storage and Event Delegation               -> Status: Completed
 	16) CSS Text Shadow Mouse Move Effect                -> Status: Completed
 	17) Sorting Band Names without Articles              -> Status: Completed
-	18) Tally String Times With Reduce
-	19) Unreal Webcam Fun
+	18) Tally String Times With Reduce                   -> Status: Completed
+	19) Unreal Webcam Fun        			     -> Status: Completed
 	20) Native Speech Recognition
 	21) Geolocation Based Speedometer and Compass
 	22) Follow along Links
