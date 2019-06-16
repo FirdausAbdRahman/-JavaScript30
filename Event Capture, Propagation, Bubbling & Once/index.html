@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Understanding JavaScript's Capture</title>
+</head>
+<body class="bod">
+
+  <div class="one">
+    <div class="two">
+      <div class="three">
+      </div>
+    </div>
+  </div>
+
+<style>
+  html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  div {
+    width: 100%;
+    padding: 100px;
+  }
+  .one {
+    background: thistle;
+  }
+  .two {
+    background: mistyrose;
+  }
+  .three {
+    background: coral;
+  }
+</style>
+
+<button></button>
+<script>
+  const divs = document.querySelectorAll('div');
+  const button = document.querySelector('button');
+  function logText(e) {
+    console.log(this.classList.value);
+    // e.stopPropagation(); // stop bubbling!
+    // console.log(this);
+  }
+  divs.forEach(div => div.addEventListener('click', logText, {
+    capture: false,
+    once: true
+  }));
+  button.addEventListener('click', () => {
+    console.log('Click!!!');
+  }, {
+    once: true
+  });
+
+  /*
+  Additional Info:
+
+  Event propagation is a way of defining the element order when an event occurs.
+  Two ways of event propagation in the HTML DOM, bubbling and capturing.
+
+  1. capture  => goes down to the element
+  2. bubbling  => goes from the target element straight up
+  3. stopPropagation  => Stop the bubbling/capture or both.
+  4. Once  => run the event only once, as if it adds removeEventListener() afterwards.
+
+  By default, capture & once are set as false.
+
+  */
+
+</script>
+</body>
+</html>
