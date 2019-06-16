@@ -24,8 +24,8 @@ My 30 Projects:
 	18) Tally String Times With Reduce                   -> Status: Completed
 	19) Unreal Webcam Fun        			     -> Status: Completed
 	20) Native Speech Recognition                        -> Status: Completed
-	21) Geolocation Based Speedometer and Compass
-	22) Follow along Links
+	21) Geolocation Based Speedometer and Compass        -> Status: Completed
+	22) Follow along Links                               -> Status: Completed
 	23) Speech Synthesis
 	24) Sticky Nav
 	25) Event Capture, Propagation, Bubbling and Once
