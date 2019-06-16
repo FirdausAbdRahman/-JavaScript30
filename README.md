@@ -26,9 +26,9 @@ My 30 Projects:
 	20) Native Speech Recognition                        -> Status: Completed
 	21) Geolocation Based Speedometer and Compass        -> Status: Completed
 	22) Follow along Links                               -> Status: Completed
-	23) Speech Synthesis
-	24) Sticky Nav
-	25) Event Capture, Propagation, Bubbling and Once
+	23) Speech Synthesis                                 -> Status: Completed
+	24) Sticky Nav                                       -> Status: Completed
+	25) Event Capture, Propagation, Bubbling and Once    -> Status: Completed
 	26) Stripe Follow along Dropdown
 	27) Click and Drag to Scroll
 	28) Video Speed Controller UI
