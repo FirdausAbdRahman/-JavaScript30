@@ -30,7 +30,7 @@ My 30 Projects:
 	24) Sticky Nav                                       -> Status: Completed
 	25) Event Capture, Propagation, Bubbling and Once    -> Status: Completed
 	26) Stripe Follow along Dropdown                     -> Status: Completed
-	27) Click and Drag to Scroll
+	27) Click and Drag to Scroll                         -> Status: Completed
 	28) Video Speed Controller UI
 	29) Countdown Clock
 	30) Whack a Mole Game 
