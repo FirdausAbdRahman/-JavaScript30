@@ -32,5 +32,5 @@ My 30 Projects:
 	26) Stripe Follow along Dropdown                     -> Status: Completed
 	27) Click and Drag to Scroll                         -> Status: Completed
 	28) Video Speed Controller UI                        -> Status: Completed
-	29) Countdown Clock
+	29) Countdown Timer                                  -> Status: Completed
 	30) Whack a Mole Game 
