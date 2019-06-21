@@ -1,6 +1,6 @@
 # #JavaScript30 Challenge
 
-A compilation of 30 projects that I've developed through #JavaScript30, which is a 30 days vanilla JavaScript coding challenge. I made my own version of those projects (some of it) to further enhance my skills beyond this coding challenge.
+A compilation of 30 projects that I've developed through #JavaScript30, which is a 30 days vanilla JavaScript coding challenge. I made my own version of those projects (some of them) to further enhance my skills beyond this coding challenge.
 
 My 30 Projects:
 
@@ -33,4 +33,4 @@ My 30 Projects:
 	27) Click and Drag to Scroll                         -> Status: Completed
 	28) Video Speed Controller UI                        -> Status: Completed
 	29) Countdown Timer                                  -> Status: Completed
-	30) Whack a Mole Game 
+	30) Whack a Mole Game                                -> Status: Completed
